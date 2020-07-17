@@ -44,16 +44,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="CeF-ey-ZSc">
-                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="germany" translatesAutoresizingMaskIntoConstraints="NO" id="CeF-ey-ZSc">
+                                <rect key="frame" x="0.0" y="344.5" width="414" height="207"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="CeF-ey-ZSc" secondAttribute="height" multiplier="2:1" id="KXH-lE-9v5"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="CeF-ey-ZSc" firstAttribute="leading" secondItem="J4X-Of-Z49" secondAttribute="leading" id="Aop-qh-cD1"/>
-                            <constraint firstItem="J4X-Of-Z49" firstAttribute="trailing" secondItem="CeF-ey-ZSc" secondAttribute="trailing" id="MMp-VR-Rxh"/>
-                            <constraint firstItem="CeF-ey-ZSc" firstAttribute="top" secondItem="J4X-Of-Z49" secondAttribute="top" id="he4-TA-vss"/>
-                            <constraint firstItem="J4X-Of-Z49" firstAttribute="bottom" secondItem="CeF-ey-ZSc" secondAttribute="bottom" id="s9Y-qQ-4RA"/>
+                            <constraint firstItem="CeF-ey-ZSc" firstAttribute="leading" secondItem="J4X-Of-Z49" secondAttribute="leading" id="Zfi-nS-YMS"/>
+                            <constraint firstItem="CeF-ey-ZSc" firstAttribute="centerX" secondItem="3mJ-fQ-F2Y" secondAttribute="centerX" id="iOY-97-5cI"/>
+                            <constraint firstItem="J4X-Of-Z49" firstAttribute="trailing" secondItem="CeF-ey-ZSc" secondAttribute="trailing" id="pUo-jn-xlM"/>
+                            <constraint firstItem="CeF-ey-ZSc" firstAttribute="centerY" secondItem="3mJ-fQ-F2Y" secondAttribute="centerY" id="wFV-dW-yOh"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="J4X-Of-Z49"/>
                     </view>
@@ -63,7 +66,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="khj-KO-UcP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2039" y="41"/>
+            <point key="canvasLocation" x="2037.68115942029" y="40.848214285714285"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="tGE-oq-j7w">
@@ -84,4 +87,7 @@
             <point key="canvasLocation" x="82.608695652173921" y="40.848214285714285"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="germany" width="200" height="100"/>
+    </resources>
 </document>
